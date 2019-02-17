@@ -146,8 +146,8 @@ public class Acceso extends javax.swing.JFrame {
     
     //Botón  entrar-------------------------------------------------------  
     private void btnEntrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnEntrarMouseClicked
-       String Usuario="admin";
-       String Contraseña="123";
+       String Usuario="pdigital";
+       String Contraseña="pulso";
        
        String Pass=new String(Password.getPassword());
        

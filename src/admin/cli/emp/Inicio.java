@@ -130,11 +130,6 @@ public class Inicio extends javax.swing.JFrame {
         jMenuBar1.add(jMenu5);
 
         jMenu6.setText("Opciones");
-        jMenu6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenu6ActionPerformed(evt);
-            }
-        });
 
         MOL.setText("Login");
         MOL.addActionListener(new java.awt.event.ActionListener() {
@@ -185,7 +180,7 @@ public class Inicio extends javax.swing.JFrame {
      //Salie
     private void MOSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MOSActionPerformed
         // TODO add your handling code here:
-        
+        System.exit(0);
     }//GEN-LAST:event_MOSActionPerformed
     //Clientes-Acciones
     private void MCAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MCAActionPerformed
@@ -198,6 +193,9 @@ public class Inicio extends javax.swing.JFrame {
     //Loggin
     private void MOLActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MOLActionPerformed
         // TODO add your handling code here:
+        Acceso acceso = new Acceso();
+        acceso.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_MOLActionPerformed
     //Mostrar clientes
     private void MCMActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MCMActionPerformed
@@ -229,10 +227,6 @@ public class Inicio extends javax.swing.JFrame {
         rclientes.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_MRCActionPerformed
-
-    private void jMenu6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenu6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMenu6ActionPerformed
 
     /**
      * @param args the command line arguments

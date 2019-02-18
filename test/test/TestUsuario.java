@@ -20,7 +20,8 @@ public class TestUsuario {
     
     public TestUsuario() {
     }
-    @Test
+    
+    @Test    
     public void test1() {
         System.out.println("Test 1 works");
     }

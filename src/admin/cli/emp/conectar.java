@@ -14,7 +14,7 @@ public class conectar {
      try {
       //driver
        Class.forName("com.mysql.jdbc.Driver");
-        conectar=DriverManager.getConnection("jdbc:mysql://localhost/pdigital","root","");//conexión
+        conectar=DriverManager.getConnection("jdbc:mysql://localhost/pdigital","root","");//conexión-usuario-contraseña
       } 
      catch (Exception e) {//por si pasa un error
           System.out.print(e.getMessage());//mensaje de error

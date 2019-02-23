@@ -20,12 +20,12 @@ https://prnt.sc/mp7won
 
 ### Tabla de contenidos:
 
-- [Login](https://github.com/adrianhdz14/Admin-clientes-empleados/wiki#login).
-- [Clientes](https://github.com/adrianhdz14/Admin-clientes-empleados/wiki#clientes).
-- [Empleados](https://github.com/adrianhdz14/Admin-clientes-empleados/wiki#empleados).
-- [Reportes](https://github.com/adrianhdz14/Admin-clientes-empleados/wiki#reportes).
-- [Ayuda](https://github.com/adrianhdz14/Admin-clientes-empleados/wiki#ayuda).
-- [Opciones](https://github.com/adrianhdz14/Admin-clientes-empleados/wiki#opciones).
+- [Login](https://github.com/adrianhdz14/Admin-clientes-empleados/wiki/Wiki#login).
+- [Clientes](https://github.com/adrianhdz14/Admin-clientes-empleados/wiki/Wiki#clientes).
+- [Empleados](https://github.com/adrianhdz14/Admin-clientes-empleados/wiki/Wiki#empleados).
+- [Reportes](https://github.com/adrianhdz14/Admin-clientes-empleados/wiki/Wiki#reportes).
+- [Ayuda](https://github.com/adrianhdz14/Admin-clientes-empleados/wiki/Wiki#ayuda).
+- [Opciones](https://github.com/adrianhdz14/Admin-clientes-empleados/wiki/Wiki#opciones).
 
 ## Requerimientos:
 

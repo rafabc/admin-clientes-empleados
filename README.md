@@ -29,10 +29,10 @@ https://prnt.sc/mp7won
 
 ## Requerimientos:
 
-- [Tener acceso y conexión a una base de datos.]().
-- [Tener la versión de Java 8.]().
-- [Tener el IDE de netbeans.]().
-- [Tener descargado los archivos del repositorio incluyendo librerías y plugins.]().
+- [Tener acceso y conexión a una base de datos.].
+- [Tener la versión de Java 8.].
+- [Tener el IDE de netbeans.].
+- [Tener descargado los archivos del repositorio incluyendo librerías y plugins.].
 
 ## Instalación:
 

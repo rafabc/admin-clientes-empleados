@@ -101,7 +101,7 @@ Solo se ocuparía el una base de datos y el archivo JAR del programa.
 - Clonamos el repositorio creado en nuestro ordenador. <pre>$ git clone https://github.com/tu_cuenta/Admin-clientes-empleados.git</pre>
 - Creamos un Nuevo branch donde agregaremos nuevo feature. <pre>$ git checkout -b “feature-…“</pre>
 - Agregamos y editamos lo necesario para nuestro nuevo feature.<pre>$ git add .</pre>
-- Hacemos commit en los cambios realizado, con algún comentario descriptivo corto. (Puedes hacer varios commtis). <pre>$ git clone https://github.com/tu_cuenta/Admin-clientes-empleados.git</pre>
+- Hacemos commit en los cambios realizado, con algún comentario descriptivo corto. (Puedes hacer varios commtis). <pre>$ git commit -m ‘comentario'</pre>
 - Ya terminado nuestros cambios realizamos un push al repositorio. <pre>$ git push  <REMOTENAME> <BRANCHNAME></pre>
 <pre>$ git push  “feature-…“:“feature-…“</pre>
 

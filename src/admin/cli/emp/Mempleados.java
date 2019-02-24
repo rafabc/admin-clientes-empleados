@@ -58,21 +58,21 @@ public class Mempleados extends javax.swing.JFrame {
     //para buscar el id
     else if(!txtbuscar.getText().equals(""))
     {
-        sql="SELECT * FROM clientes WHERE empleado_id='"+valor+"'";//cliente_id
+        sql="SELECT * FROM empleados WHERE empleado_id='"+valor+"'";//cliente_id
     }
     //para buscar el nombre
     else if(!txtbuscarN.getText().equals(""))
     {
-        sql="SELECT * FROM clientes WHERE e_nombres='"+valor+"'";//cliente_id
+        sql="SELECT * FROM empleados WHERE e_nombres='"+valor+"'";//cliente_id
     }
     //para buscar el email
-    else if(!txtbuscarN.getText().equals(""))
+    else if(!txtbuscarE.getText().equals(""))
     {
-        sql="SELECT * FROM clientes WHERE e_email='"+valor+"'";//cliente_id
+        sql="SELECT * FROM empleados WHERE e_email='"+valor+"'";//cliente_id
     }
     //si no
     else{
-        sql="SELECT * FROM clientes WHERE empleado_id='"+valor+"'";//cliente_id
+        sql="SELECT * FROM empleados WHERE empleado_id='"+valor+"'";//cliente_id
     }
     
     //vector

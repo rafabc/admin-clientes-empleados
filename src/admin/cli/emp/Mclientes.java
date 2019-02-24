@@ -67,7 +67,7 @@ public class Mclientes extends javax.swing.JFrame {
         sql="SELECT * FROM clientes WHERE c_nombres='"+valor+"'";//cliente_id
     }
     //para buscar el email
-    else if(!txtbuscarN.getText().equals(""))
+    else if(!txtbuscarE.getText().equals(""))
     {
         sql="SELECT * FROM clientes WHERE c_email='"+valor+"'";//cliente_id
     }

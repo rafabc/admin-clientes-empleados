@@ -502,7 +502,7 @@ public class Empleados extends javax.swing.JFrame {
         id=tbempleados.getValueAt(fila, 0).toString();
         
         try {//función de eliminar
-           PreparedStatement pst = cn.prepareStatement("DELETE FROM clientes WHERE empleados_id='"+id+"'");
+           PreparedStatement pst = cn.prepareStatement("DELETE FROM empleados WHERE empleado_id='"+id+"'");
            pst.executeUpdate();
            mostrardatos("");
         } catch (Exception e) {
